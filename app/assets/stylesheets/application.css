@@ -14,23 +14,24 @@
  *= require_self
  */
 
- .nav {
+ /* .nav {
 	padding-top: 0;
 	padding-bottom: 2em;
 	position: sticky;
 	font-size: 1.5em;
+	text-align: center;
  }
 
  .nav a {
-	 padding: 0 1em;
- }
+	 padding: .25em 1em;
+ } */
 
- .navigation {
+ /* .navigation {
 	 float: left;
-	 /* padding: 2em; */
+	 padding: 2em;
  }
 
  .contact {
 	 float: right;
-	 /* padding: 2em; */
- }
+	 padding: 2em;
+ } */

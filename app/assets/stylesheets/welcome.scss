@@ -1,3 +1,110 @@
-// Place all the styles related to the Welcome controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Raleway:ital,wght@0,400;1,300&display=swap');
+
+$quicksand: 'Quicksand', sans-serif;
+$raleway: 'Raleway', sans-serif;
+
+* {
+	-webkit-text-size-adjust: none;
+	font-family: $quicksand;
+}
+
+ .nav {
+	padding-top: 0;
+	padding-bottom: 2em;
+	font-size: 1.5em;
+	text-align: center;
+ }
+
+ .nav a {
+	 padding: .25em 1em;
+ }
+
+.header {
+	margin-bottom: 5em;
+}
+
+.name {
+	font-family: $raleway;
+	font-size: 6em;
+	font-weight: 400;
+	margin-bottom: .5em;
+}
+
+.title {
+	font-family: $raleway;
+	font-size: 1.25em;
+	font-style: italic;
+	font-weight: 300;
+}
+
+.technical {
+	display: flex;
+	flex-wrap: wrap;
+	width: fit-content;
+	h3 {
+		width: 100%;
+	}
+}
+
+.frameworks {
+	float: right;
+	width: 50%;
+	p {
+		font-size: 1.25em;
+	}
+}
+
+.languages {
+	float: left;
+	width: 50%;
+	p {
+		font-size: 1.25em;
+	}
+}
+
+.experience {
+	width: 100%;
+}
+
+.xp {
+	p {
+		font-size: 1.25em;
+		margin-bottom: 1em;
+		span {
+			font-style: italic;
+			font-size: .75em;
+			display: block;
+		}
+	}
+	ul {
+		margin-top: 1em;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		margin: 1em;
+	}
+
+	p, ul {
+		margin: 1em;
+	}
+
+	.name {
+		line-height: 1em;
+		font-size: 5em;
+		margin-bottom: 0;
+	}
+	
+	.frameworks, .languages {
+		width: 100%;
+	}
+
+	.nav {
+		padding-bottom: 1em;
+		display: flex;
+		a {
+			padding: .5em .5em;
+		}
+	}
+}
