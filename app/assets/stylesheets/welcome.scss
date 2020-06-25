@@ -37,6 +37,11 @@ $raleway: 'Raleway', sans-serif;
 	font-weight: 300;
 }
 
+.about {
+	width: 50%;
+	text-align: justify;
+}
+
 .technical {
 	display: flex;
 	flex-wrap: wrap;
@@ -84,6 +89,8 @@ $raleway: 'Raleway', sans-serif;
 @media only screen and (max-width: 600px) {
 	body {
 		margin: 1em;
+		background: rgb(145,145,145);
+		background: linear-gradient(0deg, rgba(145,145,145,1) 0%, rgba(54,54,54,1) 100%);
 	}
 
 	p, ul {
@@ -95,9 +102,23 @@ $raleway: 'Raleway', sans-serif;
 		font-size: 5em;
 		margin-bottom: 0;
 	}
-	
-	.frameworks, .languages {
+
+	.about {
 		width: 100%;
+	}
+	
+	// .frameworks, .languages {
+	// 	width: 100%;
+	// }
+
+	.frameworks {
+		width: 50%;
+		float: right;
+	}
+
+	.languages {
+		width: 50%;
+		float: left;
 	}
 
 	.nav {
